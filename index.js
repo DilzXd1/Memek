@@ -11,7 +11,6 @@ const {
   getMandarinObfuscationConfig,
   generateWAMessage,
 } = require("@whiskeysockets/baileys");
-const { Octokit } = require("@octokit/rest");
 const fs = require("fs");
 const os = require("os");
 const path = require("path");
